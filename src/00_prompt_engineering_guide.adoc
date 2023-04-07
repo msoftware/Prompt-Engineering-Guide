@@ -1,0 +1,30 @@
+Prompt Engineering Guide
+========================
+
+Version 0.1.0 | Michael Jentsch
+
+Prompt Engineering ist eine Disziplin für die Entwicklung und
+Optimierung von Prompts zur effizienten Nutzung von Tools wie z.B.
+Chat-GPT.
+
+Prompt-Engineering-Fähigkeiten helfen, die Fähigkeiten von großen
+Sprachmodelle (LLMs) besser zu nutzen und die Grenzen zu verstehen.
+
+Aufgrund des großen Interesses am Prompt Engineering habe ich diesen
+Prompt-Engineering-Leitfaden erstellt, in dem ich alle, mir vorliegenden
+Papiere, Lernleitfäden, Vorlesungen, Referenzen und Tools zum Thema
+Prompt-Engineering zusammenfasse.
+
+=== Aufruf zur Einreichung von Beiträgen
+
+Ein wichtiger Baustein zur kontinuierlichen Verbesserung dieses Guides
+ist die Zusammenarbeit. Nur durch regelmäßigen Austausch über Probleme,
+Herausforderungen, und Lösungsansätze rund das Prompt Engineering kann
+ein umfassendes und aktuelles Werk entstehen.
+
+*Wir schätzen Ihre Beiträge, Ihr Feedback und Ihre Vorschläge. Bitte
+zögern Sie nicht, einen Pull-Request zu erstellen oder ein Issue zu
+öffnen.*
+
+Hinweis: Bitte fügen Sie nur Ressourcen hinzu, die mit Chat-GPT zu tun
+haben und das Prompt Engineering von Bedeutung sind.

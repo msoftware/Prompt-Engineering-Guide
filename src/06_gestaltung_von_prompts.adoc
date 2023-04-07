@@ -1,0 +1,124 @@
+=== Tipps für die Gestaltung von Prompts
+
+Im Folgenden noch einige Tipps, die bei der Gestaltung von Prompts
+beachtet werden sollten:
+
+==== Einfach starten
+
+Das Erstellen von Prompts ist ein iterativer Prozess, der Experimente
+erfordert. Daher sollte man erst einfach starten und den Prompt Stück
+für Stück weiter verbessern. Dabei werden immer mehr Elemente ergänzt
+und der Kontext konkretisiert.
+
+==== Aufteilen komplexer Prompts
+
+Größere Aufgaben, die mehrere verschiedene Teilaufgaben umfassen, können
+zerlegt werden. Auf diese Weise kann vermieden werden, dass die Aufgabe
+für einen Prompt zu komplex wird. Durch das Aufteilen komplexer Aufgaben
+werden oft bessere Ergebnisse erzielt.
+
+Das Aufteilen komplexer Aufgaben auf mehrere Prompts hat folgende
+Vorteile:
+
+* Verbesserte Fokussierung +
+Indem man die Aufgabe in kleine Teilschritte aufteilt, kann man sich
+besser auf jeden einzelnen Schritt konzentrieren und vermeidet, dass
+Chat-GPT mit der Gesamtaufgabe überfordert wird.
+* Leichtere Fehlerbehebung +
+Wenn ein Fehler in einem Prompt auftritt, kann ist es leichter, ihn zu
+identifizieren und zu beheben, ohne den gesamten Prozess zu
+beeinträchtigen.
+* Bessere Skalierbarkeit +
+Durch das Aufteilen einer Aufgabe in mehrere Prompts ist es einfacher,
+zu skalieren und weitere Ressourcen hinzuzufügen, um die Aufgabe
+schneller zu erledigen.
+* Einfachere Zusammenarbeit +
+Wenn mehrere Personen an einer Aufgabe arbeiten, erleichtert das
+Aufteilen in Prompts die Zusammenarbeit und ermöglicht eine bessere
+Verteilung der Arbeit.
+* Bessere Wiederverwendbarkeit +
+Prompts können in anderen Projekten oder Prozessen wiederverwendet
+werden, was Zeit und Ressourcen spart.
+* Bessere Überprüfbarkeit +
+Handelt es sich um eine themenübergreifende Aufgabe, können die
+einzelnen Prompts besser von den jeweiligen Experten in dem Themengebiet
+überprüft werden.
+
+Insgesamt kann das Aufteilen einer komplexen Aufgabe in mehrere Prompts
+zu einem effektiveren und effizienteren Prompt Engineering Prozess
+führen.
+
+==== Die Anweisung
+
+Indem man eine konkrete Anweisung verwendet, die dem Modell mitteilt,
+was erreicht werden soll, z. B. "Schreiben", "Klassifizieren",
+"Zusammenfassen", "Übersetzen", "Ordnen" usw. werden die Prompts
+effektiver und Chat-GPT kann die Aufgaben präziser und effizienter
+lösen.
+
+Um herauszufinden, welche Anweisung am besten geeignet ist, es nötig zu
+experimentieren. Um das gewünschte Ergebnis zu erhalten, ist es sinnvoll
+verschiedene Anweisungen mit unterschiedlichen Schlüsselwörtern,
+Kontexten und Daten auszuprobieren. So kann man herausfinden, was für
+den Anwendungsfall und die Aufgabe am besten geeignet ist. In der Regel
+werden die Ergebnisse besser, je spezifischer und relevanter der Kontext
+für die Aufgabe ist.
+
+==== Präzision
+
+Je genauer und detaillierter die Aufforderung ist, desto besser sind die
+Ergebnisse. Dies ist besonders wichtig, wenn ein bestimmtes Ergebnis
+erzielt werden soll. Es gibt keine bestimmten Tokens oder
+Schlüsselwörter, die zu besseren Ergebnissen führen. Vielmehr kommt es
+auf ein gutes Format und eine aussagekräftige Aufforderung an. Eine
+Angabe von Beispielen in der Aufforderung ist sehr effektiv, um die
+gewünschte Ausgabe in bestimmten Formaten zu erhalten.
+
+Beispiel:
+
+image:images/image15.png[Ein Bild, das Text enthält. Automatisch
+generierte Beschreibung,width=604,height=367]
+
+Chat-GPT hat hier das korrekte Format aus dem Beispiel übernommen.
+Sowohl Semikolon als auch das Komma für das Zahlenformat wurden in die
+Liste übernommen.
+
+==== Prompt Länge
+
+Bei der Gestaltung von Prompts sollte auch die Länge des Prompts
+berücksichtigt werden, da ein Prompt eine bestimmte Länge nicht
+überschreiten kann. Die Elemente des Prompts sollten relevant sein und
+zum besseren Verständnis der gestellten Aufgabe beitragen.
+
+Wenn ein Prompt zu lang ist, kann es schwierig sein, die genaue
+Bedeutung zu verstehen und den Fokus vom eigentlichen Ziel ablenken.
+Wenn ein Prompt zu kurz ist, kann es schwierig sein, genügend Kontext
+bereitzustellen, um die gewünschte Antwort zu generieren. Wenn ein
+Prompt zu komplex ist, kann das Modell Schwierigkeiten haben, die
+gewünschte Antwort zu verstehen.
+
+Insgesamt sollte ein Prompt weder zu kurz noch zu lang sein und
+spezifisch, klar, präzise und leicht lesbar sein, um die gewünschte
+Aktion des Modells zu erreichen.
+
+==== Ungenauigkeit vermeiden
+
+Beim Schreiben von Prompts kann man leicht in die Falle tappen, dass
+eine zu ungenaue Beschreibung erstellt wird. Besser ist es, spezifisch
+und direkt zu sein. Je direkter die Anweisung, desto effektiver kommt
+die Botschaft an.
+
+Beispiel:
+
+image:images/image16.png[Ein Bild, das Text enthält. Automatisch
+generierte Beschreibung,width=604,height=645]
+
+image:images/image17.png[Ein Bild, das Text enthält. Automatisch
+generierte Beschreibung,width=604,height=195]
+
+Die beiden obigen Beispiele verdeutlichen, wie die Ausgabe von Chat-GPT
+durch hinzufügen von einfachen direkten Anweisungen steuern kann. Der
+Prompt „Wie kocht man Nudeln?“ ist natürlich korrekt beantwortet aber
+für die Erledigung der Aufgabe zu umfangreich und detailliert. Mit dem
+Prompt „Wie kocht man Nudeln. In 2 einfachen Sätzen.“ kann die Antwort
+auf 2 Sätze beschränkt werden.

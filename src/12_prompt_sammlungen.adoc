@@ -1,0 +1,11 @@
+=== Prompt Sammlungen
+
+Hier noch ein paar Prompt Sammlungen, die von verschiedenen Nutzern
+zusammengetragen wurden.
+
+* https://github.com/f/awesome-chatgpt-prompts
+* https://github.com/yokoffing/ChatGPT-Prompts
+* https://github.com/eon01/awesome-chatgpt
+* https://github.com/promptslab/Awesome-Prompt-Engineering
+* https://ignacio-velasquez.notion.site/ignacio-velasquez/500-ChatGPT-Prompt-Templates-d9541e901b2b4e8f800e819bdc0256da
+* https://sharegpt.com/

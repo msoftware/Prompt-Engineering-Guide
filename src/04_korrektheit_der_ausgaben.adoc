@@ -1,0 +1,27 @@
+=== Korrektheit der Ausgaben
+
+Bei der Nutzung von Chat-GPT oder anderen LLMs ist immer darauf zu
+achten, dass die Ergebnisse nicht immer zu 100% korrekt sind. Chat-GPT
+ist ein System, das auf Wahrscheinlichkeiten basiert. Das bedeutet, dass
+die Antworten und Ergebnisse, die von Chat-GPT generiert werden,
+möglicherweise nicht immer genau oder korrekt sind.
+
+Es ist anzunehmen, dass die Qualität der Antworten von Chat-GPT in
+Zukunft besser werden, da die Technologie und die Trainingsdaten
+verbessert und verfeinert werden.
+
+Ein weiterer wichtiger Punkt ist, dass Chat-GPT im Laufe der Zeit mehr
+Erfahrung sammelt, was dazu beiträgt, die Qualität der Antworten zu
+verbessern.
+
+Es ist jedoch wichtig zu beachten, dass es immer Grenzen geben wird, und
+dass Chat-GPT vermutlich noch lange nicht perfekt sein wird. Chat-GPT
+ist kein menschlicher Experte und verfügt nicht über menschliches Wissen
+oder Erfahrung. Chat-GPT kann auch von Vorurteilen bzw. Fehlern der
+Trainingsdaten beeinflusst werden, die sich auf die Antworten auswirken
+können. Aus diesem Grund ist es wichtig, die Ergebnisse von Chat-GPT
+immer kritisch zu betrachten.
+
+Es ist immer eine menschliche Überprüfung durch menschliche Expertise
+notwendig, um sicherzustellen, dass die Antworten korrekt und
+zuverlässig sind.

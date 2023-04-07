@@ -1,0 +1,116 @@
+=== Reverse Prompt Engineering
+
+Beim Reverse Prompt Engineering geht es darum, einen Prompt aus einem
+vorliegenden Text oder Programmcode zu konstruieren. Dabei ist der
+Ausgangspunkt nicht eine Aufgabe oder ein Problem ist, das gelöst werden
+soll, sondern der fertige Output bzw. das erwartete Ergebnis.
+
+Durch das Reverse Prompt Engineering wird Modell in die Lage versetzt,
+selbst der Prompt Engineer zu sein, der die Aufgabe erhält, auf
+Grundlage des fertigen Outputs ein Prompt zu erzeugen.
+
+Im Gegensatz zur normalen Vorgehensweise, bei der ein Modell mit
+Eingabedaten gefüttert wird, um eine bestimmte Aufgabe zu erfüllen, wird
+beim Reverse Prompt Engineering zuerst die gewünschte Ausgabe
+spezifiziert und dann werden die Eingabedaten ermittelt, die das Modell
+benötigt, um diese Ausgabe zu erzeugen.
+
+Dieser Ansatz kann besonders nützlich sein, wenn es schwierig ist, eine
+ausreichende Menge von Trainingsdaten für eine bestimmte Aufgabe zu
+sammeln oder wenn es schwierig ist, die geeigneten Eingabedaten für ein
+Problem zu identifizieren. Durch die Verwendung von Reverse Prompt
+Engineering kann ein Prompt auf der Grundlage von erwarteten Ergebnissen
+generiert werden.
+
+Das Reverse Prompt Engineering ist ein mehrstufiger Prozess, bei dem man
+im ersten Schritt Chat-GPT mit einer kurzen Anweisung dazu auffordert,
+ein Prompt zu erstellen. Diese Anweisung sollte die Aufforderung
+enthalten, sich in die Lage eines Prompt-Engineer zu versetzen. In dem
+Fall beginnt der Prompt mit „*Verhalte Dich wie ein Prompt Engineer und
+erstelle mir einen Prompt, der Chat-GPT dazu bringt, …*“
+
+Beispiel:
+
+Prompt:
+____
+Verhalte Dich wie ein Prompt Engineer und erstelle mir einen Prompt, der
+Chat-GPT dazu bringt, einen Text über eine Maus im Stil "Grzimeks
+Tierleben" zu schreiben.
+____
+Ergebnis:
+____
+Okay, ich werde versuchen, einen geeigneten Prompt zu erstellen, der
+Chat-GPT dazu anregt, einen Text im Stil von "Grzimeks Tierleben" über
+eine Maus zu schreiben.
+
+"Beschreibe die faszinierende Welt der Maus in all ihrer Pracht und
+Schönheit. Erwecke das Leben dieser erstaunlichen Kreatur zum Leben,
+indem du ihre gewohnheitsmäßigen Verhaltensweisen, ihr Aussehen und ihre
+Umgebung detailliert beschreibst. Schreibe, als ob du einen Eintrag in
+Grzimeks Tierleben verfasst hättest und lasse uns eintauchen in das
+Leben der kleinen, aber unglaublich wichtigen Maus."
+____
+
+Die einfache Anweisung einen Prompt zu schreiben hat Chat-GPT übernommen
+und schon viele Details aus dem beiden Begriffen „Maus“ und „Grzimeks
+Tierleben“ in dem Prompt übernommen. Durch den bewusst kurz gehaltenen
+Prompt hat Chat-GPT viel Freiheit bei der Erstellung des Ergebnisses.
+
+Den generierten Prompt kann man nun als Muster verwenden und
+entsprechend anpassen. Im folgenden Beispiel wurde die Maus gegen eine
+Pfeffermühle ausgetauscht.
+____
+Beschreibe die faszinierende Welt der *Pfeffermühlen* in all ihrer Pracht
+und Schönheit. Erwecke das Leben dieser erstaunlichen Kreatur zum Leben,
+indem du ihre gewohnheitsmäßigen Verhaltensweisen, ihr Aussehen und ihre
+Umgebung detailliert beschreibst. Schreibe, als ob du einen Eintrag in
+Grzimeks Tierleben verfasst hättest und lasse uns eintauchen in das
+Leben der *scharfen*, aber unglaublich wichtigen *Pfeffermühlen*
+____
+Chat-GPT hat den Stil von Grzimeks Tierleben übernommen und die
+Pfeffermühle in allen Einzelheiten beschreiben. Dabei aber trotzdem bei
+der Beschreibung eine Ausdrucksform Gewählt als würde es um ein Tier
+gehen.
+____
+Liebe Leserinnen und Leser,
+
+ich freue mich sehr, Ihnen heute die faszinierende Welt der
+Pfeffermühlen näherbringen zu dürfen. Pfeffermühlen sind erstaunliche
+Kreaturen, die für den Geschmack von vielen Speisen verantwortlich sind
+und somit eine wichtige Rolle in unserer Küche spielen.
+
+Pfeffermühlen gehören zur Familie der Gewürzmühlen und sind meist aus
+Holz oder Edelstahl gefertigt. Sie sind in verschiedenen Größen und
+Formen erhältlich und haben einen Deckel, der es ermöglicht, den Pfeffer
+vor Feuchtigkeit und Luft zu schützen.
+
+Das Aussehen von Pfeffermühlen ist einzigartig. Sie haben eine schlanke
+Form und sind meistens zylindrisch geformt. Der Griff, mit dem man die
+Mühle bedient, ist in der Regel rund oder länglich geformt und besteht
+oft aus Holz. Das Mahlwerk im Inneren der Mühle ist in der Regel aus
+Keramik oder Edelstahl und wird durch Drehen des Griffs in Bewegung
+gesetzt.
+
+Pfeffermühlen sind in der Küche unverzichtbar und haben einige
+gewohnheitsmäßige Verhaltensweisen. Wenn sie beispielsweise lange Zeit
+nicht verwendet werden, können sie sich verstopfen oder der Pfeffer
+darin kann verklumpen. Deshalb sollten Pfeffermühlen regelmäßig
+gereinigt werden, um ein optimales Mahlergebnis zu erzielen. Außerdem
+ist es wichtig, den Pfeffer in kleinen Mengen in die Mühle zu geben, um
+eine Überlastung des Mahlwerks zu vermeiden.
+
+Pfeffermühlen leben in der Küche und sind oft in der Nähe von anderen
+Gewürzmühlen und Küchengeräten zu finden. Sie sind jedoch auch auf
+Tischen und in Restaurants zu finden und tragen dazu bei, den Geschmack
+von Speisen zu verbessern.
+
+Insgesamt sind Pfeffermühlen erstaunliche Kreaturen, die für den
+Geschmack unserer Speisen unverzichtbar sind. Sie haben ein
+einzigartiges Aussehen und müssen sorgfältig gepflegt werden, um ein
+optimales Mahlergebnis zu erzielen. Wir sollten uns glücklich schätzen,
+solch wundervolle Wesen in unserer Küche zu haben.
+____
+Auf diese Weise ist es möglich, kreative Texte zu erstellen. Trotz der
+offensichtlichen Diskrepanz zwischen Grzimeks Tierleben und der
+Pfeffermühle, schafft es Chat-GPT eine Brücke zu schlagen und einen
+qualitativ hochwertigen Text zu erstellen.

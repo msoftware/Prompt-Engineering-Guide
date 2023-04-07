@@ -1,0 +1,15 @@
+=== Was ist ein Prompt?
+
+Ein Prompt ist ein Satz oder eine Phrase, die verwendet wird, um eine
+spezifische Antwort von dem Chat-GPT-Modell zu erhalten. Unter Prompt
+Engineerings wird das Entwerfen und Formulieren von Prompts, die dem
+Modell helfen, spezifische Informationen zu generieren oder spezifische
+Aufgaben auszuführen.
+
+Durch korrekt formulierte Prompts kann Chat-GPT darauf eingestimmt
+werden, spezifische Antworten oder Ergebnisse zu generieren, die auf die
+Bedürfnisse der Benutzer zugeschnitten sind.
+
+Zum Beispiel kann ein Prompt so formuliert werden, dass eine kurze
+Zusammenfassung eines Artikels generiert oder eine Antwort auf eine
+bestimmte Frage ausgegeben wird.

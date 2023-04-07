@@ -1,0 +1,69 @@
+=== Prompt Engineering Grundlagen
+
+Als Prompt Engineer benötigt man ein solides Verständnis der
+Funktionsweise von ChatGPT und der zugrunde liegenden Technologie, um
+die Einsatzmöglichkeiten und die Grenzen der Sprachmodelle besser
+beurteilen zu können.
+
+GPT steht für *Generative Pretrained Transformer*. Diese Technologie
+basiert auf dem Transformer-Modell, dass sehr gut geeignet ist um
+angefangene Texte zu vervollständigen oder existierende Texte
+zusammenzufassen. Diese Modelle entsprechen einer seht großen
+mathematischen Gleichung, die mehrere Milliarden Parameter enthalten
+kann.
+
+Trainiert werden die Modelle mit Texten, die aus allen möglichen Quellen
+und aus jedem denkbaren Themengebiet stammen können. Beim Pretraining
+wird das Modell darauf Trainiert, das nächste Wort eines
+Textausschnittes vorherzusagen. Ähnlich einer Handy Tastatur, wird
+anhand der vorherigen Eingabe das nächste Wort vorhergesagt. Der
+Unterschied ist nur, dass GPT nicht nur das vorherige Wort betrachtet,
+sondern die gesamte bisherige Konversation. Dadurch ist es möglich,
+Chat-GPT im Verlauf einer Konversation zu bestimmten Vorhersagen zu
+bewegen, die anders nicht möglich wären.
+
+Nach dem Pretraining folgt das
+https://platform.openai.com/docs/guides/fine-tuning[Fine-Tuning], bei
+dem das Sprachmodell durch überwachtes Lernen auf die eigentliche
+Aufgabe (Das Generieren von Antworten auf vorher gestellte Fragen)
+trainiert wird. Hierfür wurden vorgefertigte Frage/Antwort Paare aus den
+unterschiedlichsten Gebieten bereitgestellt (Siehe Screenshot).
+
+image:images/image3.png[Ein Bild, das Text enthält. Automatisch
+generierte Beschreibung,width=800,height=311]
+
+Beispiel aus dem MMLU Dataset
+(https://huggingface.co/datasets/tasksource/mmlu) Global-Facts.
+
+Weitere Beispiele für solche Frage-Antworte Paar Datensätze sind z.B.
+
+* The data and code for NumerSense (EMNLP2020) +
+https://github.com/INK-USC/NumerSense
+
+* CommonsenseQA +
+https://www.tau-nlp.sites.tau.ac.il/commonsenseqa
+
+* ScienceQA +
+https://scienceqa.github.io/
+
+* CodeQA +
+https://github.com/jadecxliu/codeqa
+
+* FEVER +
+https://paperswithcode.com/dataset/fever
+
+* StrategyQA +
+https://allenai.org/data/strategyqa
+
+* CommonsenseQA 2.0 +
+https://github.com/allenai/csqa2
+
+
+Zum Schluss wird das Modell durch
+https://de.wikipedia.org/wiki/Best%C3%A4rkendes_Lernen[Reinforcement
+Learning] weiter optimiert: Hierfür werden die Antworten des LLM (Large
+Language Modell) mit Hilfe von
+https://de.wikipedia.org/wiki/%C3%9Cberwachtes_Lernen[Supervised
+Learning] bewertet. Diese Bewertungen fließen dann wieder zurück in das
+Modell. Durch diesen letzten Schritt wird das GPT-Modell noch weiter
+optimiert.

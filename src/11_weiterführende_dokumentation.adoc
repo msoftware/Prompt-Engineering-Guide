@@ -1,0 +1,20 @@
+=== Weiterführende Dokumentation
+
+* An Enterprise Guide to Large Language Models +
+https://www.nvidia.com/en-us/lp/ai-data-science/large-language-models-ebook/
+
+* Prompt Engineering Guide +
+https://www.promptingguide.ai/
+* Best practices for prompt engineering with OpenAI API +
+https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+* Prompt Engineering 101 +
+https://humanloop.com/blog/prompt-engineering-101
+* How to write an effective GPT-3 or GPT-4 prompt +
+https://zapier.com/blog/gpt-prompt/
+* The Art of ChatGPT Prompting: A Guide to Crafting Clear and Effective
+Prompts +
+https://fka.gumroad.com/l/art-of-chatgpt-prompting
+* A free guide for learning to create ChatGPT3 Prompts +
+https://github.com/mattnigh/ChatGPT3-Free-Prompt-List
+* Didaktische und rechtliche Perspektiven auf KI-gestütztes Schreiben in der Hochschulbildung +
+https://hss-opus.ub.ruhr-uni-bochum.de/opus4/frontdoor/index/index/docId/9734
